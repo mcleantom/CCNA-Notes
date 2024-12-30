@@ -63,3 +63,9 @@ Please do not teach students pointless acronyms
 
 # TCP/IP
 
+4. Application
+3. Transport
+2. Internet
+1. Link
+
+![alt text](network_topology.png)
