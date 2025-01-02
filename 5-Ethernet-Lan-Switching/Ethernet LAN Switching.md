@@ -57,4 +57,3 @@ Switch 1 receives the frame, reads the source mac address from the frame to lear
 The destination of the frame (AAAA.AA00.0002) is not yet known by the switch, so it is an unknown unicast frame. So it floods the frame, forwarding the frame through all the interfaces. PC3 ignores the packet, but PC2 receives the packet. If PC2 wants to send a reply to PC1, it sends a frame through its network interface to the switch. The switch adds the mac address to the MAC address table. This time, the switch doesnt flood the frame as it already knows which interface the mac address is on. This is a known unicase frame.
 
 Dynamic MAC addresses are removed from the MAC address table after 5 minutes of inactivity.
-
